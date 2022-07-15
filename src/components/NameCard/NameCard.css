@@ -1,0 +1,19 @@
+.name-card-result{
+    border: 1px solid grey;
+    background:#282d4f;
+    color:#e7e9f0;
+    min-width:80px;
+    padding: 8px 20px;
+    margin: 5px 0px;
+
+    text-align: center;
+    font-weight: 400;
+    border-radius: 10px;
+    transition: background 0.5s;
+    
+
+}
+
+.name-card-result:hover{
+    background:#4a5079;
+}

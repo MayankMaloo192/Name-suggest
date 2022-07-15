@@ -1,0 +1,39 @@
+.head-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 40px; */
+}
+
+.head-image {
+    width: auto;
+
+    transition: max-width 500ms,min-width 500ms; 
+}
+
+.head-image-expanded{
+    max-width: 280px;
+    min-width:210px;
+
+}
+.head-image-shrinked{
+    max-width: 80px;
+    min-width: 60px;
+
+}
+
+.head-text {
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 5px 0px;
+    font-style: cursive;
+    transition:font-size 500ms;
+    color:#e7e9f0;
+}
+
+.head-text-expanded{
+  font-size:3rem;
+}
+.head-text-shrinked{
+
+    font-size: 1rem;
+}
